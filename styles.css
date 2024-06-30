@@ -1,0 +1,87 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Color de texto general */
+    background-color: #f8f9fa; /* Color de fondo para el cuerpo */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 20px;
+}
+
+/* Estilos para encabezados */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Estilos para párrafos */
+p {
+    line-height: 1.6;
+}
+
+/* Estilos para enlaces */
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3; /* Color de hover para los enlaces */
+}
+
+/* Estilos para la navegación */
+header {
+    background-color:rgba(0, 0, 0, 0.8); /* Fondo semi-transparente negro para el encabezado */
+    color: #fff; /* Color de texto para el encabezado */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Asegura que el encabezado esté por encima del contenido */
+}
+
+header img {
+    max-height: 60px; /* Ajusta el tamaño máximo del logo */
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffc107; /* Color de hover para los enlaces del menú */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente negro para el pie de página */
+    color: #fff; /* Color de texto para el pie de página */
+    text-align: center;
+    padding: 9px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
